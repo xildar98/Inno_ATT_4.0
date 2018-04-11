@@ -76,11 +76,6 @@ public class User {
         this.fullName = name + " " + surname;
     }
 
-
-    /*
-        String for database in the form to add user with these values
-     */
-
     String getFullName(){
         return fullName;
     }
@@ -92,11 +87,4 @@ public class User {
     String getEmail() {return email;}
     String getStatus() {return status;};
 
-
-
-    //asdasdasd
-
-    /*
-    FUCK everyone;
-     */
 }
