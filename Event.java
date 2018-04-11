@@ -45,47 +45,6 @@ public class Event {
         return date;
     }
 
-/*
-    void changePresenceById(String studentsId){
-        if(attendedId.contains(studentsId)){
-            attendedId.remove(studentsId);
-        } else{
-            attendedId.add(studentsId);
-        }
-    }
-    void changePresenceByName(String name){
-        String studentsId = getIdByName(name);
-        changePresenceById(studentsId);
-    }
 
-
-    String getIdByName(String name){
-        for (User user: group.getListOfStudents() ) {
-            if(name.equals(user.getFullName())){
-                return user.getId();
-            }
-        }
-        return null;
-    }
-
-    String getJson(){
-        String result = new String();
-        for (String studentsId: attendedId
-             ) {
-            result = result + studentsId+";";
-        }
-        return result;
-    }
-
-    void print(){
-        System.out.println("Group id : "+ group.getId());
-        for (String id: attendedId
-                ) {
-            System.out.println(id);
-        }
-        System.out.print("JSON : "  + getJson());
-        System.out.println("");
-    }
-*/
 
 }
