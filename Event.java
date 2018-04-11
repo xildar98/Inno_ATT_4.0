@@ -1,4 +1,6 @@
+import java.lang.reflect.Array;
 import java.util.ArrayList;
+import java.util.Arrays;
 
 public class Event {
 
@@ -45,6 +47,12 @@ public class Event {
         return date;
     }
 
+    void setAttendedId(String attendedId){
+        this.attendedId = attendedId;
+    }
 
-
+    ArrayList<String> getListAttenedId(){
+        String id[] = attendedId.split(";");
+        return new ArrayList<>(Arrays.asList(id));
+    }
 }

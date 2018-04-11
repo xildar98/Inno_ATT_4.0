@@ -46,9 +46,10 @@ public class Attendance {
     String getAllId(){
         String result = "";
         for(String id:attendedId){
-            result+=id;
+            result+=id+";";
         }
         return result;
     }
+
 
 }
